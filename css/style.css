@@ -11,6 +11,7 @@
 #main{
 	background-image: url("../image/header.jpg");
 	background-size: cover;
+	height: 740px;
 
 }
 #main .container-fluid{
@@ -35,8 +36,12 @@
 #main .content{
 	padding: 50px 0;
 }
-
-
+.bold{
+	font-weight: 700;
+}
+.mgt{
+	margin-top: 70px;
+}
 #services {
 }
 
@@ -87,21 +92,83 @@ background-color: white;
 }
 
 
-#about{
-	height: 1000px;
+#about img{
+	border: 10px solid #F1F1F1;
+	margin-bottom: 10px;
 }
 #about .mainColor{
-	background-color: yellow;
+	
 }
-#team{
-	height: 800px;
+#team {
+	
 }
-#team .mainColor{
-	background-color: red;
+#team {
+	height:750px;
+	background-color: #EEEEEE;
+}
+
+#team img{
+	border: 7px solid white;
+}
+#team p{
+	font-size: 20px;
+font-weight: bold;
+margin-top: 20px;
+}
+.h6{
+	color: #777782;
+	position: relative;
+	top: 50px;
+	font-size: 18px;
+	font-style: italic;
 }
 #contact{
+	background-color: #222;
+	background-image: url('img/map-image.png') no-repeat center;
 	height: 500px;
 }
 #contact .mainColor{
-	background-color: gray;
+	color: white;
 }
+#about h6{
+	padding: 20px 0;
+	font-style: italic;
+}
+.images{margin-top: 50px;
+	height: 80px;
+}
+#contact input{
+margin-bottom: 30px;
+}
+#contact textarea{
+	height: 160px;
+}
+#contact button{
+	background-color: #FEC503;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+#footer{
+	height: 150px;
+}
+#footer a{
+	color: #FED136;
+	text-decoration: none;
+}
+.div{
+	background-color: #FED136;
+	height: 220px;
+	width: 220px;
+	border-radius: 100%;
+	border: 10px solid #F1F1F1;
+	margin-bottom: 50px;
+	color: white;
+	font-weight: bold;
+}
+.div h3{
+	margin-top: 65px;
+}
+
+
